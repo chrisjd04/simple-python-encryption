@@ -2,9 +2,7 @@ import random
 import string
 
 def encrypt(sentence):
-    mapping = string.ascii_letters 
-        
-
+    mapping = string.ascii_letters         
     encrypted_sentence = ''
     for letter in sentence:
         encrypted_sentence += mapping
